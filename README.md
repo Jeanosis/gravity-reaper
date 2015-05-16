@@ -1,2 +1,2 @@
-# gravity-reaper
-Gravity Reaper cutting his way through space...
+# Sine
+Sine is good!
