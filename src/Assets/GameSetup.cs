@@ -13,6 +13,6 @@ public class GameSetup : MonoBehaviour {
 		RightWall.size = LeftWall.size;
 		RightWall.center = new Vector2 (-LeftWall.center.x, LeftWall.center.y);
 
-		Hero.position = new Vector3 (0F, MainCamera.ScreenToWorldPoint (new Vector3 (0F, 70F, 0F)).y, 0F);
+		Hero.position = new Vector3 (Hero.position.x, MainCamera.ScreenToWorldPoint (new Vector3 (0F, 70F, 0F)).y, 0F);
 	}
 }
